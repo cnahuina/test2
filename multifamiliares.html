@@ -24,6 +24,11 @@
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .modal-content{
+            background-color: transparent !important;
+        }
+    </style>
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
@@ -147,7 +152,7 @@
                 <div class="col-xl-6 col-lg-6">
                     <div class="about_info text-center">
                         <h3>Recorrido Azafranes</h3>
-                    
+
                     </div>
                 </div>
             </div>
@@ -157,7 +162,7 @@
 
     <!-- financial_solution -->
     <div class="mt-5 financial_solution_area minus_top_padding carrou-imgs">
-        <div class="col-xl-4 col-lg-4 col-text">
+        <div class="col-xl-6 col-lg-6 col-text">
             <div class="about_info">
                 <h3>Residencial Los Azafranes</h3>
                 <br>
@@ -168,34 +173,72 @@
                 </ul>
             </div>
         </div>
-        <div class="col-xl-8 col-lg-8">
+        <!-- <div class="col-xl-8 col-lg-8">
             <div class="financial_active owl-carousel">
                 <div class="single_finalcial_wrap carrou">
 
-                    <img src="images/azafranes/101.jpg" alt="">
-                    <img src="images/azafranes/102.jpg" alt="">
-                    <img src="images/azafranes/201.jpg" alt="">
-                    <img src="images/azafranes/202.jpg" alt="">
+                    <img src="images/azafranes/101.jpg" id="image_1" onclick="image(1);" alt="" data-toggle="modal" data-target="#exampleModal">
+                    <img src="images/azafranes/102.jpg" id="image_2" onclick="image(2);" alt="" data-toggle="modal" data-target="#exampleModal">
+                    <img src="images/azafranes/201.jpg" id="image_3" onclick="image(3);" alt="" data-toggle="modal" data-target="#exampleModal">
+                    <img src="images/azafranes/202.jpg" id="image_4" onclick="image(4);" alt="" data-toggle="modal" data-target="#exampleModal">
 
                 </div>
                 <div class="single_finalcial_wrap carrou">
 
-                    <img src="images/azafranes/301.jpg" alt="">
-                    <img src="images/azafranes/302.jpg" alt="">
-                    <img src="images/azafranes/401.jpg" alt="">
-                    <img src="images/azafranes/402.jpg" alt="">
+                    <img src="images/azafranes/301.jpg" id="image_5" onclick="image(5);" alt="" data-toggle="modal" data-target="#exampleModal">
+                    <img src="images/azafranes/302.jpg" id="image_6" onclick="image(6);" alt="" data-toggle="modal" data-target="#exampleModal">
+                    <img src="images/azafranes/401.jpg" id="image_7" onclick="image(7);" alt="" data-toggle="modal" data-target="#exampleModal">
+                    <img src="images/azafranes/402.jpg" id="image_8" onclick="image(8);" alt="" data-toggle="modal" data-target="#exampleModal">
 
                 </div>
                 <div class="single_finalcial_wrap carrou">
 
-                    <img src="images/azafranes/501.jpg" alt="">
-                    <img src="images/azafranes/502.jpg" alt="">
-                    <img src="images/azafranes/503.jpg" alt="">
+                    <img src="images/azafranes/501.jpg" id="image_9" onclick="image(9);" alt="" data-toggle="modal" data-target="#exampleModal">
+                    <img src="images/azafranes/502.jpg" id="image_10" onclick="image(10);" alt="" data-toggle="modal" data-target="#exampleModal">
+                    <img src="images/azafranes/503.jpg" id="image_11" onclick="image(11);" alt="" data-toggle="modal" data-target="#exampleModal">
 
                 </div>
             </div>
+        </div> -->
+        <div class="col-xl-6 col-lg-6">
+            <div class="slider">
+                <div class="slide-track">
+                    <div class="slide">
+                        <img src="images/azafranes/101.jpg" id="image_1"  onclick="image(1);" alt="" data-toggle="modal" data-target="#exampleModal" height="400" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="images/azafranes/102.jpg" id="image_2" onclick="image(2);" alt="" data-toggle="modal" data-target="#exampleModal" height="400" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="images/azafranes/201.jpg" id="image_3" onclick="image(3);" alt="" data-toggle="modal" data-target="#exampleModal" height="400" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="images/azafranes/202.jpg" id="image_4"  onclick="image(4);" alt="" data-toggle="modal" data-target="#exampleModal" height="400" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="images/azafranes/301.jpg" id="image_5"  onclick="image(5);" alt="" data-toggle="modal" data-target="#exampleModal" height="400" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="images/azafranes/302.jpg" id="image_6" onclick="image(6);" alt="" data-toggle="modal" data-target="#exampleModal" height="400" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="images/azafranes/401.jpg" id="image_7" onclick="image(7);" alt="" data-toggle="modal" data-target="#exampleModal" height="400" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="images/azafranes/402.jpg" id="image_8" onclick="image(8);" alt="" data-toggle="modal" data-target="#exampleModal" height="400" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="images/azafranes/501.jpg" id="image_9" onclick="image(9);" alt="" data-toggle="modal" data-target="#exampleModal" height="400" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="images/azafranes/502.jpg" id="image_10" onclick="image(10);" alt="" data-toggle="modal" data-target="#exampleModal" height="400" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="images/azafranes/503.jpg" id="image_11" onclick="image(11);" alt="" data-toggle="modal" data-target="#exampleModal" height="400" alt="" />
+                    </div>
+                </div>
+            </div>
         </div>
-
     </div>
     <!--/ financial_solution -->
 
@@ -205,8 +248,6 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="project_info text-center">
-
-
                         <h3>Escríbenos: </h3>
                         <p>No podemos esperar para hacer realidad tus ideas</p>
                         <a href="contacto.html" class="boxed-btn3-white">Contáctenos ahora</a>
@@ -295,7 +336,7 @@
                         <p class="copy_right text-center">
                             Copyright &copy;
                             <script>document.write(new Date().getFullYear());</script> Todos los derechos reservados |
-                            Desarrollado por <a href="https://cnahuina.dev" target="_blank">Harold</a>
+                            Desarrollado por <a href="https://cnahuina.dev" target="_blank">Inurban</a>
                         </p>
                     </div>
                 </div>
@@ -305,6 +346,17 @@
     <!--/ footer end  -->
 
     <!-- link that opens popup -->
+
+    <div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img id="view_image" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- JS here -->
@@ -335,6 +387,16 @@
     <script src="js/mail-script.js"></script>
 
     <script src="js/main.js"></script>
+
+    <script>
+        function image(i){
+            const var_image = document.getElementById("image_"+i);
+            const view_image = document.getElementById("view_image");
+            view_image.src = var_image.src;
+            console.log(view_image);
+        }
+    </script>
+
 </body>
 
 </html>
